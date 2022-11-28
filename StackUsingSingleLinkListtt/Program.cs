@@ -9,11 +9,11 @@ namespace StackUsingSingleLinkList
     class node
     {
         public int info;
-        public node text;
+        public node next;
         public node(int i, node n)
         {
             info = i;
-            nrxt = n;
+            next = n;
         }
     }
 }
